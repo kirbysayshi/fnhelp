@@ -74,25 +74,51 @@ Function.prototype.help = require('fnhelp');
 More Details
 ------------
 
-fnhelp is a function that will `toString` another function and then do minimal parsing to grab the comments. By default it returns the first set of comments it finds. If given a single truthy argument, it will return _all_ the comments it finds in the function.
+fnhelp is a function that will `toString` another function and then do minimal parsing to grab the comments. By default it returns the first set of comments it finds. If given a single or second truthy argument, it will return _all_ the comments it finds in the function.
 
 By default, fnhelp supports the following styles of comments:
 
-- Double slash:
-  - `// This is a comment`
-- Multiline
-  - `/** This is a comment */`
-  - `/***** what
-      * this is fine too */`
-  - `/*
-      * this is fine too
-      */`
-  - `/*****
-      * this is fine too
-      *****/`
-  - `/*
-        this is fine too
-      */`
+### Double slash:
+
+```
+// This is a comment
+```
+
+### Multiline
+```
+/** This is a comment */
+```
+
+```
+/***** what
+ * this is fine too
+ */
+```
+
+```
+/*
+ * this is fine too
+ */
+```
+
+```
+/*****
+ * are you getting it yet
+ *****/
+```
+
+```
+/*
+  I hope you get it by now
+*/
+```
+
+### Stripping
 
 fnhelp will also strip leading `*` if within a multiline comment, and strip `//` if within a single line comment.
 
+
+LICENSE
+-------
+
+MIT
