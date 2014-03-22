@@ -29,7 +29,7 @@ Corgi.prototype.croissant = function() {
   // Long dog is long.
   var isLong = true;
 
-  // At the end are where the tail should be but isn't.
+  // At the end is where the tail should be but isn't.
 }
 ```
 
@@ -45,7 +45,7 @@ And then maybe from a repl?
 > var c = new Corgi; c.croissant.help();
 ' It\'s just really quite ridiculous. He forms nearly an entire circle.\n Long dog is long.'
 > c.croissant.help(true);
-' It\'s just really quite ridiculous. He forms nearly an entire circle.\n Long dog is long.\n At the end are where the tail should be but isn\'t.'
+' It\'s just really quite ridiculous. He forms nearly an entire circle.\n Long dog is long.\n At the end is where the tail should be but isn\'t.'
 ```
 
 Usage
