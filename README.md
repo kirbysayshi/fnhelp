@@ -1,9 +1,9 @@
 fnhelp
 ======
 
-Get some fn' help from your functions (parse for comments!). This is an experiment in making JS more self-explanatory while playing around, similar to R's `?something` or python's docblock.
+Get some fn' help from your functions (parse for comments!). This is an experiment in making JS more self-explanatory while playing around, similar to R's `?something` or python's docblock. Ideally, commenting code should not require any special formatting or crazy conventions to be useful. This attempts to make comments that would otherwise only be seen by reading through the source useful when playing around in a live environment.
 
-This might be a horrible idea.
+This might be a horrible idea. If you think so, (or if you like it), tell me why!
 
 [![Build Status](https://travis-ci.org/kirbysayshi/fnhelp.svg?branch=master)](https://travis-ci.org/kirbysayshi/fnhelp)
 
