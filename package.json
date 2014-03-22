@@ -1,0 +1,30 @@
+{
+  "name": "fnhelp",
+  "version": "0.0.0",
+  "description": "Get some fn' help from your functions (parse for comments!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kirbysayshi/fnhelp.git"
+  },
+  "keywords": [
+    "help",
+    "comments",
+    "inline",
+    "docs",
+    "doctest",
+    "docblock"
+  ],
+  "author": "Andrew Petersen <senofpeter@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirbysayshi/fnhelp/issues"
+  },
+  "homepage": "https://github.com/kirbysayshi/fnhelp",
+  "devDependencies": {
+    "tape": "~2.11.0"
+  }
+}
