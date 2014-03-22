@@ -5,6 +5,8 @@ Get some fn' help from your functions (parse for comments!). This is an experime
 
 This might be a horrible idea.
 
+[![Build Status](https://travis-ci.org/kirbysayshi/fnhelp.svg?branch=master)](https://travis-ci.org/kirbysayshi/fnhelp)
+
 Examples
 --------
 
