@@ -1,6 +1,6 @@
 {
   "name": "fnhelp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get some fn' help from your functions (parse for comments!)",
   "main": "index.js",
   "scripts": {
