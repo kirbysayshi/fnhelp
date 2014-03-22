@@ -74,7 +74,7 @@ Function.prototype.help = require('fnhelp');
 More Details
 ------------
 
-fnhelp is a function that will `toString` another function and then do minimal parsing to grab the comments. By default it returns the first set of comments it finds. If given a single or second truthy argument, it will return _all_ the comments it finds in the function.
+fnhelp is a function that will `toString` another function and then do minimal parsing to grab the comments. By default it returns the first set of comments it finds. If given a single non-function or second truthy argument, it will return _all_ the comments it finds in the function.
 
 By default, fnhelp supports the following styles of comments:
 
