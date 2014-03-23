@@ -10,8 +10,6 @@ This might be a horrible idea. If you think so, (or if you like it), tell me why
 Examples
 --------
 
-[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=9719201)
-
 Somewhere in your code...
 
 ```js
